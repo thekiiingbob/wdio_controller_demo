@@ -1,0 +1,20 @@
+{
+  "name": "ls-rtc-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio wdio.conf.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-register": "^6.23.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "lodash": "^4.17.4",
+    "wdio-mocha-framework": "^0.5.8",
+    "webdriverio": "^4.6.2",
+    "webdriverrtc": "^1.0.0"
+  }
+}

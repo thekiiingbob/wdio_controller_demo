@@ -1,0 +1,5 @@
+node_modules
+test/y4m_files
+.idea/
+.DS_Store
+dist
