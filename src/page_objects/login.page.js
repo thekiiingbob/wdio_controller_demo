@@ -12,9 +12,13 @@ class LoginPage {
     browser.url("file:///" + __dirname + "../../../test/test_pages/myApp.html");
   }
 
-  login(extension) {
+  fillExtension(extension) {
     this.extensionField.waitForVisible();
     this.extensionField.setValue(extension);
+  }
+
+  login(extension) {
+    this.fillExtension(extension);
     this.loginButton.waitForEnabled();
     this.loginButton.click();
   }
